@@ -29,6 +29,14 @@ Add `@edgeros/jsre` to the plugins section of your `.eslintrc` configuration fil
 }
 ```
 
+```json
+{
+    "env": [
+        "@edgeros/jsre/jsre": true
+    ]
+}
+```
+
 ## Supported Rules
 
 * Fill in provided rules here
