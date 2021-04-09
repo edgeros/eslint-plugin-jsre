@@ -13,30 +13,19 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-edgeros`:
 
 ```
-$ npm install eslint-plugin-edgeros --save-dev
+$ npm install @edgeros/eslint-plugin-jsre --save-dev
 ```
 
 
 ## Usage
 
-Add `edgeros` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@edgeros/jsre` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "edgeros"
+        "@edgeros/jsre"
     ]
-}
-```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "edgeros/rule-name": 2
-    }
 }
 ```
 
