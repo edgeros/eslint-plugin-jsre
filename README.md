@@ -1,4 +1,4 @@
-# eslint-plugin-edgeros
+# eslint-plugin-jsre
 
  ESLint plugin for Edgeros
 
@@ -10,7 +10,7 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-edgeros`:
+Next, install `eslint-plugin-jsre`:
 
 ```
 $ npm install @edgeros/eslint-plugin-jsre --save-dev

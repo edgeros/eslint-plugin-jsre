@@ -1,13 +1,14 @@
 {
   "name": "@edgeros/eslint-plugin-jsre",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": " ESLint plugin for Edgeros",
+  "private": false,
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "fuwenhao",
+  "author": "fuwenhao@acoinfo.com",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
@@ -22,7 +23,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC",
+  "license": "Apache-2.0",
   "directories": {
     "lib": "lib",
     "test": "tests"
