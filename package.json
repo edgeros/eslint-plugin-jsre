@@ -27,5 +27,6 @@
   "directories": {
     "lib": "lib",
     "test": "tests"
-  }
+  },
+  "types": "lib/index.d.ts"
 }
