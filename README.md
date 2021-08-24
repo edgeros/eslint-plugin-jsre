@@ -25,8 +25,8 @@ npm install @edgeros/eslint-plugin-jsre --save-dev
    The `eslint-plugin-` prefix **has to be omitted** below:
 ```json
 {
-    "env": [
+    "env": {
         "@edgeros/jsre/env": true
-    ]
+    }
 }
 ```
