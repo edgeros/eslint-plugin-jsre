@@ -1,47 +1,32 @@
 # eslint-plugin-jsre
 
- ESLint plugin for Edgeros
+ ESLint plugin for EdgerOS **J**ava**S**cript **R**un**T**ime.
 
-## Installation
-
-You'll first need to install [ESLint](http://eslint.org):
-
-```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-jsre`:
-
-```
-$ npm install @edgeros/eslint-plugin-jsre --save-dev
-```
-
+ This plugin provides environment `@edgeros/jsre/env` to define global variables inside JSRE.
 
 ## Usage
 
-Add `@edgeros/jsre` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+1. Install the package
+```
+npm install @edgeros/eslint-plugin-jsre --save-dev
+```
 
+2. Add `@edgeros/jsre` to the plugins section of your `.eslintrc`.  
+   The `eslint-plugin-` prefix might be omitted below:
 ```json
 {
     "plugins": [
-        "@edgeros/jsre"
+        "@edgeros/eslint-plugin-jsre"
     ]
 }
 ```
 
+3. Add `@edgeros/jsre/env` to the `env` section of your `.eslintrc`.  
+   The `eslint-plugin-` prefix **has to be omitted** below:
 ```json
 {
     "env": [
-        "@edgeros/jsre/jsre": true
+        "@edgeros/jsre/env": true
     ]
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-

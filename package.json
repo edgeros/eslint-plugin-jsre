@@ -1,32 +1,17 @@
 {
   "name": "@edgeros/eslint-plugin-jsre",
-  "version": "0.0.5",
-  "description": " ESLint plugin for Edgeros",
+  "version": "0.0.6",
+  "description": " ESLint plugin for EdgerOS JSRE",
   "private": false,
   "keywords": [
     "eslint",
-    "eslintplugin",
-    "eslint-plugin"
+    "plugin"
   ],
   "author": "fuwenhao@acoinfo.com",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha tests --recursive"
-  },
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.23.0",
-    "mocha": "^7.2.0"
-  },
   "engines": {
     "node": ">=0.10.0"
   },
   "license": "Apache-2.0",
-  "directories": {
-    "lib": "lib",
-    "test": "tests"
-  },
   "types": "lib/index.d.ts"
 }
