@@ -1,6 +1,6 @@
 {
   "name": "@edgeros/eslint-plugin-jsre",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": " ESLint plugin for EdgerOS JSRE",
   "private": false,
   "keywords": [
@@ -12,6 +12,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "Apache-2.0",
-  "types": "lib/index.d.ts"
+  "license": "MIT"
 }
