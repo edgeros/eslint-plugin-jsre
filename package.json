@@ -1,6 +1,6 @@
 {
   "name": "@edgeros/eslint-plugin-jsre",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": " ESLint plugin for EdgerOS JSRE",
   "private": false,
   "keywords": [
