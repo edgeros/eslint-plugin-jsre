@@ -1,6 +1,6 @@
 # eslint-plugin-jsre
 
- ESLint plugin for EdgerOS **J**ava**S**cript **R**un**T**ime.
+ ESLint plugin for EdgerOS JSRE (JavaScript Runtime Environment).
 
  This plugin provides environment `@edgeros/jsre/env` to define global variables inside JSRE.
 
